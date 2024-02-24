@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B76CDE0B2B8936370021CD9D /* HeartEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76CDE0A2B8936370021CD9D /* HeartEntity.swift */; };
+		B79913232B816320008E7DB8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79913222B816320008E7DB8 /* Utilities.swift */; };
 		B7C977052B7BBE6000067690 /* AnnotationTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C977042B7BBE6000067690 /* AnnotationTestApp.swift */; };
 		B7C977072B7BBE6000067690 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C977062B7BBE6000067690 /* ContentView.swift */; };
 		B7C977092B7BBE6200067690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C977082B7BBE6200067690 /* Assets.xcassets */; };
 		B7C9770C2B7BBE6200067690 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C9770B2B7BBE6200067690 /* Preview Assets.xcassets */; };
+		B7C977132B7BBE8300067690 /* CubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C977122B7BBE8300067690 /* CubeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B76CDE0A2B8936370021CD9D /* HeartEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartEntity.swift; sourceTree = "<group>"; };
+		B79913222B816320008E7DB8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		B7C977012B7BBE6000067690 /* AnnotationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnotationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C977042B7BBE6000067690 /* AnnotationTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationTestApp.swift; sourceTree = "<group>"; };
 		B7C977062B7BBE6000067690 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7C977082B7BBE6200067690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7C9770B2B7BBE6200067690 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7C977122B7BBE8300067690 /* CubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				B7C977042B7BBE6000067690 /* AnnotationTestApp.swift */,
+				B79913222B816320008E7DB8 /* Utilities.swift */,
+				B7C977122B7BBE8300067690 /* CubeView.swift */,
+				B76CDE0A2B8936370021CD9D /* HeartEntity.swift */,
 				B7C977062B7BBE6000067690 /* ContentView.swift */,
 				B7C977082B7BBE6200067690 /* Assets.xcassets */,
 				B7C9770A2B7BBE6200067690 /* Preview Content */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76CDE0B2B8936370021CD9D /* HeartEntity.swift in Sources */,
 				B7C977072B7BBE6000067690 /* ContentView.swift in Sources */,
 				B7C977052B7BBE6000067690 /* AnnotationTestApp.swift in Sources */,
+				B79913232B816320008E7DB8 /* Utilities.swift in Sources */,
+				B7C977132B7BBE8300067690 /* CubeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 				DEVELOPMENT_TEAM = 6MTCHYNPAT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Cam.;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +317,7 @@
 				DEVELOPMENT_TEAM = 6MTCHYNPAT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Cam.;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
